@@ -1,5 +1,5 @@
 {% set name = "pytorch_tabular" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 467f034121420d5a903cd937183d2181c8fc27ee4916725e38e99cf1bea69135
+  sha256: 1b96b576eb3de443840b313d0b298293eaf83dcfdbba53ed8974b76d1351b821
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: {{ name }}
